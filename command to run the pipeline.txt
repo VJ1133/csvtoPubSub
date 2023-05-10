@@ -1,0 +1,1 @@
+python csv2pubsub.py --runner DataflowRunner --project pipeline-1133 --region us-central1 --temp_location gs://databucket_uber/tmp --staging_location gs://databucket_uber/staging --save_main_session True --streaming True
